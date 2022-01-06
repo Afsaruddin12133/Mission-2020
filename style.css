@@ -1,3 +1,142 @@
-h1{
-    color: red;
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Fira+Sans&family=Source+Serif+Pro&display=swap');
+body{
+    font-family: 'Fira Sans', sans-serif;
+    margin: 0;
 }
+h1{
+    font-size: 45px;
+}
+p{
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+a{
+    text-decoration: none;
+    background-color: #d40c4fc7;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+span{
+    display: inline-block;
+    padding-top: 30px;
+}
+.f-container{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.f-container-child-one{
+    width: 50%;
+}
+#orange-color{
+    color:#F4955F;
+}
+.f-container-child-two{
+    width: 50%;
+    margin-left: 80px;
+}
+.f-container-child-two img{
+    width: 100%;
+}
+/** First Container work end **/
+h3{
+    font-size: 23px;
+}
+.s-container{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.s-container-h1{
+    text-align: center;
+    color: rgb(24, 18, 18);
+}
+.dream-section{
+    display: flex;
+    width: 100%;
+}
+
+.dream-section-child{
+    width: 33%;
+    margin-right: 20px;
+    background-color: #EDF5F6;
+    padding-left: 10px;
+    border-radius: 20px;
+}
+.dream-section-child img{
+    width: 45%;
+    height: 150px;
+}
+.background-color{
+    background-color: #FFEEEE;
+}
+.background{
+    background-color: #FFF4D6;
+}
+/** Second container work end **/
+.third-container{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.third-container-child{
+    width: 50%;
+}
+.for-padding{
+    padding-left: 50px;
+}
+.third-container-child img{
+    width: 100%;
+    border-radius: 30px;
+}
+/** Third container work end **/
+.four-container{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.four-container-child{
+    width: 50%;
+}
+.four-container-child img{
+    width: 80%;
+    padding-left: 50px;
+}
+/** Four section End **/
+.five-container{
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 50px;
+}
+.five-container h1{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.omicron-container-child{
+  width: 50%;
+}
+.omicron-container{
+    display: flex;
+}
+.omicron-container-child img{
+    width: 100%;
+    border-radius: 20px;
+
+}
+/** Five section End**/
+.footer-section{
+    text-align: center;
+    background-color: #050505;
+    color: white;
+}
+.footer-section h2{
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+    padding-top: 30px;
+}
+/** Footer section End**/
